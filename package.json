@@ -9,9 +9,7 @@
   "scripts": {
     "start": "node start.js",
     "lint": "standard",
-    "test": "npm run lint && gulp generate-assets && jest",
-    "heroku-prebuild": "npm i -f",
-    "heroku-postbuild": "npm run build"
+    "test": "npm run lint && gulp generate-assets && jest"
   },
   "dependencies": {
     "acorn": "^6.0.5",
