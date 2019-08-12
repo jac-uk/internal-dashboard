@@ -1,8 +1,8 @@
 
-{% extends "layout.html" %}
+{% extends "layout_unbranded.html" %}
 
 {% block pageTitle %}
-  GOV.UK Prototype Kit
+  JAC internal dashboard
 {% endblock %}
 
 {% block content %}
@@ -10,33 +10,49 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <h1 class="govuk-heading-xl">
-        The GOV.UK Prototype Kit
-        <span class="govuk-caption-xl">{{releaseVersion}}</span>
+        JAC Internal Dashboard
+        <span class="govuk-caption-xl">Beta</span>
       </h1>{{releaseVersion | log }}
       <p>
-        This kit lets you rapidly create HTML prototypes of GOV.UK services.
+        JAC internal dashboard
       </p>
 
       <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
+        More information
       </p>
 
       <h2 class="govuk-heading-m">About this page</h2>
 
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
+      <p>We would like to share.</p>
 
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
+      <p>More information</p>
 
-      <h2 class="govuk-heading-m">Examples and documentation</h2>
+      <video width="300" height="650" controls autoplay loop>
+        <source src="/public/videos/File from iOS (1).mp4" type="video/mp4">
+   
+        Your browser does not support the video tag.
+      </video>
+
+      <video width="300" height="650" controls autoplay loop>
+        <source src="/public/videos/File from iOS.mp4" type="video/mp4">
+   
+        Your browser does not support the video tag.
+      </video>
+
+      <h2 class="govuk-heading-m">Links and documentation</h2>
 
       <ul class="govuk-list govuk-list--bullet">
-        <li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
+        <li><a href="/docs/tutorials-and-examples">Example pages and documentation - https://design-system.service.gov.uk</a></li>
         <li>
-          <a href="https://design-system.service.gov.uk">
-            GOV.UK Design System
+          <a href="staff-prototype.herokuapp.com/">
+            Staff journey is now ready, iteration 2 - https://staff-prototype.herokuapp.com/ - p:admin, u:admin
           </a>
         </li>
+        <li>
+          <a href="https://applicant-prototype.herokuapp.com">
+            Applicant journey is now ready, iteration 2 - https://applicant-prototype.herokuapp.com - p:admin, u:admin
+          </a>
+        </li>      
       </ul>
     </div>
 </div>
